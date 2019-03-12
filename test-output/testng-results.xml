@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51940" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:39:27Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="15" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:38:35Z">
+    </test> <!-- Test1 -->
+    <test name="test2" duration-ms="51878" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:39:27Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="browserup()[pri:0, instance:Academy.HomePage@3abbfa04]" name="browserup" is-config="true" duration-ms="3119" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserup -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3abbfa04]" name="basePageNavigation" duration-ms="48193" started-at="2019-01-23T13:38:38Z" data-provider="inputtestdata" finished-at="2019-01-23T13:39:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ratakondavenkateshrgv@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[guru@777]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="Browserdown()[pri:0, instance:Academy.HomePage@3abbfa04]" name="Browserdown" is-config="true" duration-ms="175" started-at="2019-01-23T13:39:27Z" finished-at="2019-01-23T13:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserdown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

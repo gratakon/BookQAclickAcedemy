@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listners"/>
+  </listeners>
+  <test thread-count="5" name="test2(failed)">
+    <classes>
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="browserup"/>
+          <include name="Browserdown"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

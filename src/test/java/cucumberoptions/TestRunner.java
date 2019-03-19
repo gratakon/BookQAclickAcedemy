@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		features="Scenarios", 
 		glue="StepDefinition",
 		tags={"@SmokeTestnow"},
-		dryRun=false,
+		dryRun=true,
 		strict=true,
 		monochrome=true
 		)

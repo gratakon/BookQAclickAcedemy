@@ -2,38 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="51940" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:39:27Z">
+  <suite name="Testng Cucumber Suite" duration-ms="132770" started-at="2019-03-19T14:47:25Z" finished-at="2019-03-19T14:49:38Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.TestRunner@239963d8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Test1" duration-ms="15" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:38:35Z">
-    </test> <!-- Test1 -->
-    <test name="test2" duration-ms="51878" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:39:27Z">
-      <class name="Academy.HomePage">
-        <test-method status="PASS" signature="browserup()[pri:0, instance:Academy.HomePage@3abbfa04]" name="browserup" is-config="true" duration-ms="3119" started-at="2019-01-23T13:38:35Z" finished-at="2019-01-23T13:38:38Z">
+    <test name="Testing QA Click" duration-ms="132770" started-at="2019-03-19T14:47:25Z" finished-at="2019-03-19T14:49:38Z">
+      <class name="cucumberoptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberoptions.TestRunner@239963d8]" name="setUpClass" is-config="true" duration-ms="281" started-at="2019-03-19T14:47:25Z" finished-at="2019-03-19T14:47:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserup -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3abbfa04]" name="basePageNavigation" duration-ms="48193" started-at="2019-01-23T13:38:38Z" data-provider="inputtestdata" finished-at="2019-01-23T13:39:27Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberoptions.TestRunner@239963d8]" name="feature" duration-ms="132332" started-at="2019-03-19T14:47:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-19T14:49:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ratakondavenkateshrgv@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[guru@777]]>
+                <![CDATA[Feature to validate info and phone links]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="Browserdown()[pri:0, instance:Academy.HomePage@3abbfa04]" name="Browserdown" is-config="true" duration-ms="175" started-at="2019-01-23T13:39:27Z" finished-at="2019-01-23T13:39:27Z">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberoptions.TestRunner@239963d8]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2019-03-19T14:49:38Z" finished-at="2019-03-19T14:49:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Browserdown -->
-      </class> <!-- Academy.HomePage -->
-    </test> <!-- test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberoptions.TestRunner -->
+    </test> <!-- Testing QA Click -->
+  </suite> <!-- Testng Cucumber Suite -->
 </testng-results>

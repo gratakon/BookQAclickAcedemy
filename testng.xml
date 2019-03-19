@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng Cucumber Suite" parallel="tests">
+	<test name="Testing QA Click">
 
-<suite name="Suite">
-<listeners>
-<listener class-name="Academy.Listners"/>
-</listeners>
-
-<test thread-count="5" name="Test1">
-    <classes>
-      <class name="Resources.base"/>
-      </classes>
-    </test>
-    <test name="test2">
-    <classes>
-      <class name="Academy.HomePage"/>
-    </classes>
-    </test>
-</suite> <!-- Suite -->
+		<classes>
+			<class name="cucumberoptions.TestRunner" />
+		</classes>
+	</test>
+</suite> 

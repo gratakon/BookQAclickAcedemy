@@ -12,7 +12,7 @@ Scenario Outline: Home page Info link validation
 		|kiranguru488@gmail.com|guru@789|
 		
 @SmokeTestnow 
-Scenario Outline: Home page Info link validation 
+Scenario Outline: Home page Phone link validation 
 	Given User Enter "<username>" and "<password>" to Login to QAclick 
 	And Verify phone link is displaying 
 	Then Click on profile Image and Logout 

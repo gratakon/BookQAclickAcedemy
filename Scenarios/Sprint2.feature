@@ -12,7 +12,7 @@ Scenario Outline: Mycourse link validation
 		|username|password|		
 		|kiranguru488@gmail.com|guru@789|
 		
-@RegressionTest
+@SmokeTest
 Scenario Outline: All courses link validation 
 	Given User Enter "<username>" and "<password>" to Login to QAclick 
 	And Verify all courses link is displaying 

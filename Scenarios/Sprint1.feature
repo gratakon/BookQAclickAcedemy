@@ -11,7 +11,7 @@ Scenario Outline: Home page Info link validation
 		|username|password|
 		|kiranguru488@gmail.com|guru@789|
 		
-@SmokeTest
+@RegressionTest
 Scenario Outline: Home page Phone link validation 
 	Given User Enter "<username>" and "<password>" to Login to QAclick 
 	And Verify phone link is displaying 
